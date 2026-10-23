@@ -1,27 +1,22 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "Op. 0!"
-  text: "Docs for Opus-No0"
-  tagline: 音乐可视化
+  name: "OpenCadenza"
+  tagline: 乐创华彩
   actions:
     - theme: brand
-      text: 纪要文档
-      link: /notes/v1-0123
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Opusloom
+      link: /opusloom/introducing-to-opusloom.md
+    - theme: brand
+      text: Zimerman (Coming SOON!)
 
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Opusloom 智能化乐谱创作平台
+    details: 开发乐谱共创平台 opusloom.art 及辅助知识库，实现合乎乐理和创作者意图的 Agentic 乐谱创作
+  - title: Zimerman 智能辅助自动演奏
+    details: 面向自动钢琴，探索如何用人工智能方法形成富有表现力的演奏风格移植与即兴演奏
 
 ---
 
