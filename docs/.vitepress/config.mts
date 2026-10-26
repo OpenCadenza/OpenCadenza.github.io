@@ -8,14 +8,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Opusloom', link: '/opusloom/introducing-to-opusloom' }
+      { text: 'I-score', link: '/i-score/introducing-to-i-score' }
     ],
 
     sidebar: [
       {
-        text: 'Opusloom 智能乐谱交流平台',
+        text: 'I-score 智能乐谱交流平台',
         items: [
-          { text: 'Opusloom 简介', link: '/opusloom/introducing-to-opusloom' }
+          { text: 'I-score 简介', link: '/i-score/introducing-to-i-score' }
         ]
       },
       {
