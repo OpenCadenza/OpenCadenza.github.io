@@ -8,14 +8,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'I-score', link: '/i-score/introducing-to-i-score' }
+      { text: 'I-score', link: '/i-score/introducing-i-score' }
     ],
 
     sidebar: [
       {
         text: 'I-score 智能乐谱交流平台',
         items: [
-          { text: 'I-score 简介', link: '/i-score/introducing-to-i-score' }
+          { text: 'I-score 简介', link: '/i-score/introducing-i-score' }
         ]
       },
       {

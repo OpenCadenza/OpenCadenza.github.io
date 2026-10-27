@@ -7,7 +7,7 @@ hero:
   actions:
     - theme: brand
       text: I-score
-      link: /i-score/introducing-to-i-score.md
+      link: /i-score/introducing-i-score.md
     - theme: brand
       text: Music Wiki
       link: https://opencadenza.github.io/music-wiki/
