@@ -121,13 +121,7 @@ export default defineConfig({
         items: [
           { text: 'I-score 简介', link: '/i-score/introducing-i-score' }
         ]
-      },
-      {
-        text: '（旧）Opus-No0 Hackathon',
-        items: [
-          { text: '分工', link: '/opus-no0-notes/v1-0123' }
-        ]
-      },
+      }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/OpenCadenza' }
