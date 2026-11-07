@@ -1,0 +1,22 @@
+X: 1
+T: Nocturne No. 2, Op. 9
+C: Fryderyk Chopin
+M: 12/8
+L: 1/8
+Q: "Andante" 3/8=138
+%%staves {1 2}
+%%linebreak <none>
+%%pagewidth 680px
+V: 1 clef=treble
+V: 2 clef=bass
+K: Eb
+[V:1] B |
+[V:2] z |
+[V:1] g2>-g2fg2<f2e2B |
+[V:2] .E,,[EG,][GEB,] .E,[DA,][AD_C] .E,,[EG,][GEB,] .D,,[EG,][GEB,] |
+[V:1] g2cc'2g2<b2a2g |
+[V:2] C,,[=EG,][GEB,] C,[EG,][BEC] F,,[_DF,][EDB,] F,,[CF,][FCA,] |
+[V:1] f3g2d2<e2c3 |
+[V:2] B,,[DF,][ADB,] =B,,[FG,][GFD] C,[EG,][GEC] =A,,[E_G,][_GEC] |
+[V:1] Bd'c' b/a/g/a/c/d/e3z2B |
+[V:2] B,,[EF,][AEB,] B,,,[DF,][AB,] E,,[E=G,][=GEB,] E,[EG,][GEB,] |

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "generator": "tools/render-notation.mjs",
+  "blocks": [
+    {
+      "hash": "f8cf32d0fd882bf55fb8bd8d78b37217fe2d11229a9b225b0bb015e96a54b25e",
+      "id": "chopin-op9-no2-opening",
+      "language": "abc",
+      "status": "published",
+      "title": "肖邦 夜曲 Op.9 No.2",
+      "location": "开头 4 小节（含弱起）",
+      "svg": [
+        "/notation/chopin-op9-no2-opening/page-1.svg",
+        "/notation/chopin-op9-no2-opening/page-2.svg"
+      ],
+      "audio": "/notation/chopin-op9-no2-opening/audio.mp3",
+      "source": "/notation/chopin-op9-no2-opening/source.abc",
+      "sourcePath": "i-score/Technical-feasibility.md",
+      "line": 20
+    },
+    {
+      "hash": "3dc1926d3828c5d3e3d5474acc1851d1c62882361c6846ed47ef1c730002d393",
+      "id": "beethoven-op18-no4-i-opening",
+      "language": "lilypond",
+      "status": "published",
+      "title": "贝多芬 弦乐四重奏 Op.18 No.4 第一乐章",
+      "location": "开头 4 小节（含弱起）",
+      "svg": [
+        "/notation/beethoven-op18-no4-i-opening/page-1.svg"
+      ],
+      "audio": "/notation/beethoven-op18-no4-i-opening/audio.mp3",
+      "source": "/notation/beethoven-op18-no4-i-opening/source.ly",
+      "sourcePath": "i-score/Technical-feasibility.md",
+      "line": 55
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "generator": "tools/render-notation.mjs",
+  "generatorVersion": "1",
+  "cacheKey": "7106feec3c56143685eaa655ab4b58346ae12b31bcd3afc52a220a0262b5b6b6",
+  "id": "beethoven-op18-no4-i-opening",
+  "title": "贝多芬 弦乐四重奏 Op.18 No.4 第一乐章",
+  "location": "开头 4 小节（含弱起）",
+  "status": "published",
+  "language": "lilypond",
+  "sourceHash": "3dc1926d3828c5d3e3d5474acc1851d1c62882361c6846ed47ef1c730002d393",
+  "sourcePath": "i-score/Technical-feasibility.md",
+  "line": 55,
+  "svg": [
+    "page-1.svg"
+  ],
+  "audio": "audio.mp3",
+  "source": "source.ly",
+  "instrument": {
+    "label": "acoustic grand piano",
+    "program": 0,
+    "source": "default"
+  },
+  "tools": {
+    "lilypond": "GNU LilyPond 2.26.0 (running Guile 3.0)",
+    "abc2svg": "1.22.1",
+    "fluidsynth": "FluidSynth runtime version 2.6.1",
+    "ffmpeg": "ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 8.1.1-full_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers",
+    "abc2midi": "5.07 October 14 2026 abc2midi"
+  },
+  "audioDuration": 7.474,
+  "audioBytes": 120834,
+  "audioMaxVolumeDb": -2.6
+}

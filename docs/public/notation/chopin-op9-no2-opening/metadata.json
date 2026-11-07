@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "generator": "tools/render-notation.mjs",
+  "generatorVersion": "1",
+  "cacheKey": "9b54ae14fe9327cd479c93b4acc7303a294d393a354983a1fa306792daf357e1",
+  "id": "chopin-op9-no2-opening",
+  "title": "肖邦 夜曲 Op.9 No.2",
+  "location": "开头 4 小节（含弱起）",
+  "status": "published",
+  "language": "abc",
+  "sourceHash": "f8cf32d0fd882bf55fb8bd8d78b37217fe2d11229a9b225b0bb015e96a54b25e",
+  "sourcePath": "i-score/Technical-feasibility.md",
+  "line": 20,
+  "svg": [
+    "page-1.svg",
+    "page-2.svg"
+  ],
+  "audio": "audio.mp3",
+  "source": "source.abc",
+  "instrument": {
+    "label": "acoustic grand piano",
+    "program": 0,
+    "source": "default"
+  },
+  "tools": {
+    "lilypond": "GNU LilyPond 2.26.0 (running Guile 3.0)",
+    "abc2svg": "1.22.1",
+    "fluidsynth": "FluidSynth runtime version 2.6.1",
+    "ffmpeg": "ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 8.1.1-full_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers",
+    "abc2midi": "5.07 October 14 2026 abc2midi"
+  },
+  "audioDuration": 7.105,
+  "audioBytes": 114564,
+  "audioMaxVolumeDb": -7.9
+}
