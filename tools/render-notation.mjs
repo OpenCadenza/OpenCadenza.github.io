@@ -1160,8 +1160,20 @@ function detectInstrument(block) {
     if (named) return { label: named[1], program: null, source: 'score' }
     return { label: 'acoustic grand piano', program: 0, source: 'default' }
   }
-  const named = /\\midiInstrument\s+"([^"]+)"/.exec(block.code)
-  if (named) return { label: named[1], program: null, source: 'score' }
+  // 两种常见写法：\midiInstrument "violin" 与 \set Staff.midiInstrument = "violin"
+  const named = [
+    ...block.code.matchAll(
+      /(?:\\|\.)midiInstrument\b\s*(?:=\s*)?"([^"]+)"/g
+    )
+  ].map((match) => match[1])
+  if (named.length > 0) {
+    const unique = [...new Set(named)]
+    return {
+      label: unique.length > 1 ? named.join('/') : named[0],
+      program: null,
+      source: 'score'
+    }
+  }
   return { label: 'acoustic grand piano', program: 0, source: 'default' }
 }
 

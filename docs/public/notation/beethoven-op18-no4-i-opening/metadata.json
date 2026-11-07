@@ -17,9 +17,9 @@
   "audio": "audio.mp3",
   "source": "source.ly",
   "instrument": {
-    "label": "acoustic grand piano",
-    "program": 0,
-    "source": "default"
+    "label": "violin/violin/viola/cello",
+    "program": null,
+    "source": "score"
   },
   "tools": {
     "lilypond": "GNU LilyPond 2.26.0 (running Guile 3.0)",
